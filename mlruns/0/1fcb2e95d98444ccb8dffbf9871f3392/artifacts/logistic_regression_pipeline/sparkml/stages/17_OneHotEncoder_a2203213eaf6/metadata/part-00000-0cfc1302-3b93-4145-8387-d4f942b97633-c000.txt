@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1768324502224,"sparkVersion":"4.0.1","uid":"OneHotEncoder_a2203213eaf6","paramMap":{"outputCol":"SeniorCitizen_ohe","inputCol":"SeniorCitizen_idx"},"defaultParamMap":{"outputCol":"OneHotEncoder_a2203213eaf6__output","handleInvalid":"error","dropLast":true}}

@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1768324501275,"sparkVersion":"4.0.1","uid":"StringIndexer_514d8b52c534","paramMap":{"handleInvalid":"keep","outputCol":"StreamingMovies_idx","inputCol":"StreamingMovies"},"defaultParamMap":{"handleInvalid":"error","stringOrderType":"frequencyDesc","outputCol":"StringIndexer_514d8b52c534__output"}}

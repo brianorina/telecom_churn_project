@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/m5/telecom_churn_project/mlruns/0/48ec3ad3ce3345fd880e040aad35dae5/artifacts
+end_time: 1768319868224
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 48ec3ad3ce3345fd880e040aad35dae5
+run_name: dazzling-goose-912
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768319868210
+status: 4
+tags: []
+user_id: m5
