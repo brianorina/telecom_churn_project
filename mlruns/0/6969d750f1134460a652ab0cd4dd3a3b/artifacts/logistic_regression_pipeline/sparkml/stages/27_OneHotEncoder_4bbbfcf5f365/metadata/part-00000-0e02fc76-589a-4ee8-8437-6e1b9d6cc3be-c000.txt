@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1768364814272,"sparkVersion":"4.0.1","uid":"OneHotEncoder_4bbbfcf5f365","paramMap":{"inputCol":"StreamingTV_idx","outputCol":"StreamingTV_ohe"},"defaultParamMap":{"outputCol":"OneHotEncoder_4bbbfcf5f365__output","dropLast":true,"handleInvalid":"error"}}

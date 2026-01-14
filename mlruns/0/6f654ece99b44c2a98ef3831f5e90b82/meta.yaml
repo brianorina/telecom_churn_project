@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/m5/telecom_churn_project/mlruns/0/6f654ece99b44c2a98ef3831f5e90b82/artifacts
+end_time: 1768364407410
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f654ece99b44c2a98ef3831f5e90b82
+run_name: treasured-robin-4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768364326895
+status: 3
+tags: []
+user_id: m5

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/m5/telecom_churn_project/mlruns/0/199e1054782743b98b426158b555013f/artifacts
+end_time: 1768389855033
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 199e1054782743b98b426158b555013f
+run_name: legendary-panda-861
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768389763281
+status: 3
+tags: []
+user_id: m5

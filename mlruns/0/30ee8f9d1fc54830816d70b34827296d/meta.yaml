@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/m5/telecom_churn_project/mlruns/0/30ee8f9d1fc54830816d70b34827296d/artifacts
+end_time: 1768391014344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30ee8f9d1fc54830816d70b34827296d
+run_name: capricious-zebra-878
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768390925462
+status: 3
+tags: []
+user_id: m5

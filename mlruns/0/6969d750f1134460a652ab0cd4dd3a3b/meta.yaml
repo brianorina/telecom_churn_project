@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/m5/telecom_churn_project/mlruns/0/6969d750f1134460a652ab0cd4dd3a3b/artifacts
+end_time: 1768364834459
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6969d750f1134460a652ab0cd4dd3a3b
+run_name: amazing-hound-427
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768364754090
+status: 3
+tags: []
+user_id: m5

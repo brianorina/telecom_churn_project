@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/m5/telecom_churn_project/mlruns/0/bf3ab7f175a942c3bece79d3dfe84abe/artifacts
+end_time: 1768389398034
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bf3ab7f175a942c3bece79d3dfe84abe
+run_name: intelligent-crow-312
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768389304624
+status: 3
+tags: []
+user_id: m5

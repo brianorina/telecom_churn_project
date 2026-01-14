@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/m5/telecom_churn_project/mlruns/0/c9d0ca48628442a89aad28a60df84fa0/artifacts
+end_time: 1768388185296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9d0ca48628442a89aad28a60df84fa0
+run_name: sincere-robin-914
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768388092788
+status: 3
+tags: []
+user_id: m5

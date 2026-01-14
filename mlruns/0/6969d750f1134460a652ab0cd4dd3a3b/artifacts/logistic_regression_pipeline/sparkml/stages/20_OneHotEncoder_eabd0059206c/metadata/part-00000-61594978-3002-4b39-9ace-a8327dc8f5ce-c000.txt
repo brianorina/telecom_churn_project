@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1768364812950,"sparkVersion":"4.0.1","uid":"OneHotEncoder_eabd0059206c","paramMap":{"outputCol":"PhoneService_ohe","inputCol":"PhoneService_idx"},"defaultParamMap":{"handleInvalid":"error","dropLast":true,"outputCol":"OneHotEncoder_eabd0059206c__output"}}

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/m5/telecom_churn_project/mlruns/0/0b13c90ba584432e8ad5878ce595f297/artifacts
+end_time: 1768387164758
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0b13c90ba584432e8ad5878ce595f297
+run_name: melodic-elk-15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768387069567
+status: 3
+tags: []
+user_id: m5

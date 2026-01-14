@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1768389362419,"sparkVersion":"4.0.1","uid":"StringIndexer_69851cd6f125","paramMap":{"inputCol":"SeniorCitizen","outputCol":"SeniorCitizen_idx","handleInvalid":"keep"},"defaultParamMap":{"stringOrderType":"frequencyDesc","outputCol":"StringIndexer_69851cd6f125__output","handleInvalid":"error"}}

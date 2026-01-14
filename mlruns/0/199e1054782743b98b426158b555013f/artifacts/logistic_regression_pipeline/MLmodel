@@ -1,0 +1,48 @@
+artifact_path: logistic_regression_pipeline
+flavors:
+  python_function:
+    data: sparkml
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.spark
+    python_version: 3.9.6
+  spark:
+    code: null
+    model_class: pyspark.ml.pipeline.PipelineModel
+    model_data: sparkml
+    pyspark_version: 4.0.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: null
+model_size_bytes: 45259
+model_uuid: 591ca68802b840928d2d4e947c1e561b
+prompts: null
+run_id: 199e1054782743b98b426158b555013f
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "customerID", "required": true}, {"type": "string",
+    "name": "gender", "required": true}, {"type": "long", "name": "SeniorCitizen",
+    "required": true}, {"type": "string", "name": "Partner", "required": true}, {"type":
+    "string", "name": "Dependents", "required": true}, {"type": "long", "name": "tenure",
+    "required": true}, {"type": "string", "name": "PhoneService", "required": true},
+    {"type": "string", "name": "MultipleLines", "required": true}, {"type": "string",
+    "name": "InternetService", "required": true}, {"type": "string", "name": "OnlineSecurity",
+    "required": true}, {"type": "string", "name": "OnlineBackup", "required": true},
+    {"type": "string", "name": "DeviceProtection", "required": true}, {"type": "string",
+    "name": "TechSupport", "required": true}, {"type": "string", "name": "StreamingTV",
+    "required": true}, {"type": "string", "name": "StreamingMovies", "required": true},
+    {"type": "string", "name": "Contract", "required": true}, {"type": "string", "name":
+    "PaperlessBilling", "required": true}, {"type": "string", "name": "PaymentMethod",
+    "required": true}, {"type": "double", "name": "MonthlyCharges", "required": true},
+    {"type": "double", "name": "TotalCharges", "required": true}, {"type": "string",
+    "name": "Churn", "required": true}, {"type": "long", "name": "label", "required":
+    true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-14 11:23:38.396921'
