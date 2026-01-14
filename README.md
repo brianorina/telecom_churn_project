@@ -97,3 +97,13 @@ Consistent transformations
 No data leakage
 Reproducibility
 
+
+
+📈 Model Output Interpretation
+
+probability → [P(no churn), P(churn)]
+prediction  → 0 or 1
+
+probability = [0.12, 0.88]
+prediction  = 1
+
