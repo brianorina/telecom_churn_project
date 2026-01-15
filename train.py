@@ -176,6 +176,8 @@ with mlflow.start_run() as run:
     
     print("Model logged successfully with signature!")
 
+
+
 # ===============================
 # 1️⃣2️⃣ REGISTER MODEL (OUTSIDE THE RUN)
 # ===============================
