@@ -1,0 +1,49 @@
+# ================================
+# Python / Virtual Environment
+# ================================
+spark_env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# ================================
+# MLflow / Spark
+# ================================
+mlruns/
+models/
+*.log
+*.tmp
+spark-warehouse/
+
+# ================================
+# macOS system files
+# ================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ================================
+# VSCode / IDE files
+# ================================
+.vscode/
+*.code-workspace
+
+# ================================
+# Jupyter / Notebook files
+# ================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ================================
+# Other
+# ================================
+*.pkl
+*.csv
+*.sqlite
+*.db

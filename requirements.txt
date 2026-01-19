@@ -14,4 +14,4 @@ requests==2.31.0
 
 # Optional (if using Azure/AWS)
 boto3==1.28.24           # AWS SDK for Python
-azure-identity==1.13.1   # Azure authentication
+azure-identity  # Azure authentication
