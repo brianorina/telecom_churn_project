@@ -1,10 +1,10 @@
-# Base image with Java 11 already installed
-FROM openjdk:11-jdk-slim
+# Base image with Java 11
+FROM eclipse-temurin:11-jdk
 
 # Set working directory
 WORKDIR /app
 
-# Install Python 3 and pip (no Java install needed)
+# Install Python 3 and pip
 RUN apt-get update && \
     apt-get install -y python3 python3-pip build-essential && \
     rm -rf /var/lib/apt/lists/*
