@@ -17,6 +17,6 @@ boto3==1.28.24           # AWS SDK for Python
 azure-identity  # Azure authentication
 
 # Web framework for serving models
-fastapi==0.105.2
-uvicorn[standard]==0.27.1
+fastapi
+uvicorn[standard]
 
