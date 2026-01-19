@@ -1,27 +1,23 @@
-# Use Python 3.11 slim image
-FROM python:3.11-slim
-
-# Install system dependencies
-RUN apt-get update && \
-    apt-get install -y openjdk-11-jdk build-essential && \
-    rm -rf /var/lib/apt/lists/*
-
-# Set Java environment variable
-ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk
-ENV PATH="$JAVA_HOME/bin:$PATH"
+# Base image with Java 11 already installed
+FROM openjdk:11-jdk-slim
 
 # Set working directory
 WORKDIR /app
 
+# Install Python 3 and pip (no Java install needed)
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip build-essential && \
+    rm -rf /var/lib/apt/lists/*
+
 # Copy project files
-COPY . .
+COPY . /app
 
-# Upgrade pip and install dependencies
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+# Install Python dependencies
+RUN pip3 install --no-cache-dir --upgrade pip
+RUN pip3 install --no-cache-dir -r requirements.txt
 
-# Expose port (Render will use this)
+# Expose port for FastAPI
 EXPOSE 8080
 
-# Command to run your FastAPI app
+# Run FastAPI app with Uvicorn
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
