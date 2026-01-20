@@ -1,31 +1,25 @@
-# ---------- Base image with Java 11 ----------
-FROM eclipse-temurin:11-jdk
+FROM eclipse-temurin:11-jdk-jammy
 
-# Set JAVA_HOME so PySpark can find Java
-ENV JAVA_HOME=/opt/java/openjdk
-ENV PATH="$JAVA_HOME/bin:$PATH"
+# Install Python
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip build-essential && \
+    rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /app
 
-# Install Python3, venv, pip, and build tools
-RUN apt-get update && \
-    apt-get install -y python3 python3-venv python3-pip build-essential && \
-    rm -rf /var/lib/apt/lists/*
+# Copy dependency file first (Docker cache optimization)
+COPY requirements.txt .
 
-# Create Python virtual environment
-RUN python3 -m venv /opt/venv
-ENV PATH="/opt/venv/bin:$PATH"
+# Install Python dependencies
+RUN pip3 install --no-cache-dir --upgrade pip && \
+    pip3 install --no-cache-dir -r requirements.txt
 
-# Copy project files
-COPY . /app
-
-# Install Python dependencies inside virtual environment
-RUN pip install --no-cache-dir --upgrade pip
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy app source
+COPY . .
 
 # Expose FastAPI port
 EXPOSE 8080
 
-# Run FastAPI with Uvicorn
+# Run FastAPI
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
