@@ -12,11 +12,12 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install Python dependencies
-RUN pip3 install --no-cache-dir --upgrade pip && \
+RUN RUN pip3 install --no-cache-dir --upgrade pip setuptools wheel&& \
     pip3 install --no-cache-dir -r requirements.txt
 
 # Copy app source
 COPY . .
+
 
 # Expose FastAPI port
 EXPOSE 8080
